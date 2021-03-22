@@ -1,3 +1,23 @@
+/* debug */
+
+header {
+    background-color: azure;
+}
+
+main {
+    /* height: 800px; */
+    background-color: brown;
+
+}
+
+div {
+    background-color: blueviolet;
+}
+
+footer {
+    background-color: chartreuse;
+}
+
 /* common */
 
 * {
@@ -8,4 +28,59 @@
 
 body {
     font-family: 'Nerko One', cursive, sans-serif;
+    background-color: #add8e6;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* header */
+
+header {
+    height: 100px;
+}
+
+/* main */
+
+main {
+    width: 60%;
+    margin: 10px auto;
+}
+
+.col {
+    width: 22%;
+}
+
+#col-1,
+#col-2,
+#col-3,
+#col-4 {
+    float: left;
+    margin: 0 10px;
+}
+/*
+#col-2 {
+    float: left;
+}
+#col-3 {
+    float: left;
+}
+#col-4 {
+    float: left;
+} */
+
+div {
+    height: 200px;
+    margin: 15px 20px;
+    background-color: blueviolet;
+
+}
+
+/* footer */
+
+footer {
+    height: 100px;
 }
